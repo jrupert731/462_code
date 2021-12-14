@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 		}
 */
 
-equalizeHist(img, output);
+Laplacian(img, output, CV_8U);
 
 
 /********************************************************************/
