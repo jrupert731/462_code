@@ -1,0 +1,28 @@
+DFT Error:
+    Example 1 (rms) (8-largest): 3.6985e+15
+    Example 1 (sn)  (8-largest): 95.1543
+
+    DCT Error:
+    Example 1 (rms) (8-largest): 4.61326e+15
+    Example 1 (sn)  (8-largest): 57.0374
+
+    Example 1 (rms) (7-largest): 4.70007e+15
+    Example 1 (sn)  (7-largest): 54.9518
+
+    Example 1 (rms) (6-largest): 4.75806e+15
+    Example 1 (sn)  (6-largest): 53.61
+
+    Example 1 (rms) (5-largest): 4.89729e+15
+    Example 1 (sn)  (5-largest): 50.5761
+
+    Example 1 (rms) (4-largest): 5.046e+15
+    Example 1 (sn)  (4-largest): 47.5864
+
+    Example 1 (rms) (3-largest): 5.20273e+15
+    Example 1 (sn)  (3-largest): 44.6937
+
+    Example 1 (rms) (2-largest): 5.92823e+15
+    Example 1 (sn)  (2-largest): 34.2133
+
+    Example 1 (rms) (1-largest): 8.95486e+15
+    Example 1 (sn)  (1-largest): 14.2203

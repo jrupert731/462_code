@@ -1,0 +1,33 @@
+462 Final Project Gameplan:
+
+Project will be to write a program that computes the information loss associated with different transform schemes:
+Case 1: Fourier, 8x8, 8-largest
+Case 2: Cosine, 8x8, 8-largest
+
+We’ll also decrease the number of retained coefficients until case 2 becomes objectionable.
+
+To complete this, I’ll also complete project 8-01, programs to compute the:
+	Root-mean-square error
+	Mean-square signal-to-noise ratio
+for compressed-uncompressed images.
+These programs will be used to quantify the associated information loss.
+
+All programs will be written in C++ by the team leader (and sole member) Joey Rupert.
+
+A detailed study of transform techniques and error-calculation techniques will be necessary for this project to be successful.
+As will study of the C++ programming language. (Thankfully, I’m also taking EE-553 with Professor Kruger.)
+
+error is defined as: e(x, y) = f'(x, y) - f(x, y)
+
+Root-mean-square error:
+	RMS error is the square root of (the summated squared error divided by the size of the array)
+
+Mean-square signal-to-noise ratio
+	The summated squared f'(x, y) divided by the summated squared error.
+
+Block-transform coding:
+	Divide the image into blocks (in this instance, 8x8), use a transform method on them (such as DFT or DCT), quantize them, and code them.
+	To reverse the process, decode and apply the inverse transform.
+	We'll use an identical coding/decoding and quantization process for both cases, as the goal is comparison.
+
+	8-largest meaning: Post-quantization, the 8 largest coefficients within the 64-element subimage will be kept, the others discarded.

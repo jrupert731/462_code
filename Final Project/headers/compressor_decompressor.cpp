@@ -54,7 +54,7 @@ void dctCompressor(const cv::Mat& original, cv::Mat& compressed, int subimage_di
                 // //Quantize
                 quantize(temp1, 8);
                 //cv::kmeans(temp1, coefficientsToKeep, labels, cv::TermCriteria(), 10, cv::KmeansFlags::KMEANS_PP_CENTERS, temp1);                     
-                //findLargestRemoveOthers(temp1, subimage_dim, coefficientsToKeep);
+                findLargestRemoveOthers(temp1, subimage_dim, coefficientsToKeep);
                 temp[k](cv::Rect(i, j, subimage_dim, subimage_dim)) = temp1;
             }
         }
