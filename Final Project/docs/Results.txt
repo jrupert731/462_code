@@ -1,0 +1,7 @@
+DFT Error:
+    Example 1 (rms) (8-largest): 3.77774e+16
+    Example 1 (sn)  (8-largest): 1.05787
+
+DCT Error:
+    Example 1 (rms) (8-largest): 3.27912e+16
+    Example 1 (sn)  (8-largest): 0.753147

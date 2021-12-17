@@ -27,7 +27,7 @@ Mean-square signal-to-noise ratio
 
 Block-transform coding:
 	Divide the image into blocks (in this instance, 8x8), use a transform method on them (such as DFT or DCT), quantize them, and code them.
-	To reverse the process, decode, de-quantize, and apply the inverse transform.
+	To reverse the process, decode and apply the inverse transform.
 	We'll use an identical coding/decoding and quantization process for both cases, as the goal is comparison.
 
-	8-largest meaning: Post-quanitzation, the 8 largest coefficients within the 64-element subimage will be kept, the others discarded.
+	8-largest meaning: Post-quantization, the 8 largest coefficients within the 64-element subimage will be kept, the others discarded.
